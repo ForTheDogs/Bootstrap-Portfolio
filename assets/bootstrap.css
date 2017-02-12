@@ -19,6 +19,13 @@ body {
 
 }
 
+header {
+  transition: background-color #fff;
+  text-align: center;
+  
+}
+
+
 /* 
   The width of the wrapper will be 1024px
   at browser widths above 768px 
@@ -36,7 +43,7 @@ body {
 .img-circle{
   height: 120px;
   width: 100px;
-  
+
 }
 
 #main-content,
@@ -55,6 +62,11 @@ body {
 
   /* Visual */
   background: #fff;
+
+}
+
+.form-control {
+  width: 40%;
 
 }
 
@@ -81,3 +93,4 @@ body {
   .wrapper { width: 600px; }
   
 }
+
